@@ -18,7 +18,7 @@ exports.arraysAnswers = {
     var index = arr.indexOf(item);
     for(var i = 0, length = arr.length; i < length; i++) {
       if(arr[i] === item) {
-         arr.splice(i, 1);
+        arr.splice(i, 1);
       }
     }
     return arr;
