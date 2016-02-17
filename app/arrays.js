@@ -15,7 +15,6 @@ exports.arraysAnswers = {
   },
 
   remove : function(arr, item) {
-    var index = arr.indexOf(item);
     for(var i = 0, length = arr.length; i < length; i++) {
       if(arr[i] === item) {
         arr.splice(i, 1);
